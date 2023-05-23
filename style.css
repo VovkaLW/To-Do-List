@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.back{
+    width: 100%;
+    min-height: 100vh;
+    background:  linear-gradient(135deg, #05070a, #494749);
+    padding: 10px;
+}
+.block-list{
+    width: 100%;
+    max-width: 540px;
+    background:  #960018;
+    margin: 100px auto 20px;
+    padding:  40px 30px 70px;
+    border-radius:  20px;
+}
+#taskList{
+    background: #494749;
+    padding:  40px 30px 40px;
+    border-radius:  20px;
+}
+.task {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.taskCheckbox {
+    margin-right: 10px;
+}
+
+.editTaskInput {
+    width: 150px;
+}
+
+.editTaskButtons {
+    display: flex;
+    margin-top: 5px;
+}
+
+.editTaskButtons button {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+#Edit{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#label{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#trashBin{
+    background: #ffffff;
+    padding:  40px 30px 40px;
+    border-radius:  10px;
+    width: 25%;
+}
+.trashBinImg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    /* Додайте інші стилі за потребою */
+}
+.ico{
+    margin-left: 0.5%;
+    background: #ffffff;
+    padding:  5px 5px 20px;
+    border-radius:  5px;
+    width: 40px;
+    height: 40px;
+}
+.taskLabel, .deleted {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .deleted{
+    background-color: #ced4da;
+    border-radius:  5px;
+    padding: 2%;
+    margin-right: 1%;
+  }
+.btn-move-up, .btn-move-down{
+    margin-right: 5px;
+}
